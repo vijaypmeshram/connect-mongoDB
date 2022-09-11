@@ -1,0 +1,20 @@
+extend base.pug
+
+block style
+	style
+		include contact.css
+
+block content
+    section.nav
+        a(href="/") Contact
+        
+    div.contact
+        form(action="/contact", method="post")
+            input(type="text" name="username" placeholder="username")
+            input(type="text" name="name" placeholder="Enter Your Name")
+            input(type="number" name="number" placeholder="Enter Your Number")
+            input(type="email" name="email" placeholder="Enter Your email Id")
+            input(type="text" name="address" placeholder="Enter Your Address")
+            textarea(type="textarea" name="textarea" rows="10" cols="20" placeholder="write Comments here")
+            button(id="btn")
+                Submit

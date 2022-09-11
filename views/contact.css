@@ -1,0 +1,43 @@
+body{
+    margin:0px;
+    padding:0px;
+}
+.nav{
+    width: 96vw;
+    background-color: aqua;
+    padding: 20px;
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+}
+a{
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+}
+form{
+    margin: 20px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+input{
+    display: flex;
+    margin: 10px;
+    width: 50%;
+    padding: 10px
+}
+textarea{
+    display: flex;
+    margin: 10px;
+    width: 50%;
+    padding: 10px
+}
+#btn{
+    padding: 7px 15px;
+    font-size: 15px;
+    background-color: lightgreen;
+    font-weight: bold;
+}
